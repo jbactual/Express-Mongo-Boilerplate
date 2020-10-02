@@ -1,0 +1,20 @@
+{
+  "name": "etched-server",
+  "version": "1.0.0",
+  "description": "Server for Etched Vue",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm run serve ../client --prefix"
+  },
+  "author": "Jason Bodie",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.7",
+    "morgan": "^1.10.0"
+  }
+}
